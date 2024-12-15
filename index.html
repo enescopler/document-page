@@ -6,59 +6,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="styles.css">
   <title>Technical Document Page</title>
 </head>
 <body>
 
+  <!-- Navbar -->
   <nav id="navbar">
     <header>JS Documentation</header>
     <ul>
-      <li>
-        <a class="nav-link" href="#Introduction">Introduction</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#What_you_should_already_know">What you should already know</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Hello_world">Hello world</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Variables">Variables</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Declaring_variables">Declaring variables</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Variable_scope">Variable scope</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Global_variables">Global variables</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Constants">Constants</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Data_types">Data types</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#if...else_statement">if...else statement</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#while_statement">while statement</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Function_declarations">Function declarations</a>
-      </li>
-      <li>
-        <a class="nav-link" href="#Reference">Reference</a>
-      </li>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#What_you_should_already_know">What you should already know</a></li>
+      <li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#Hello_world">Hello world</a></li>
+      <li><a class="nav-link" href="#Variables">Variables</a></li>
+      <li><a class="nav-link" href="#Declaring_variables">Declaring variables</a></li>
+      <li><a class="nav-link" href="#Variable_scope">Variable scope</a></li>
+      <li><a class="nav-link" href="#Global_variables">Global variables</a></li>
+      <li><a class="nav-link" href="#Constants">Constants</a></li>
+      <li><a class="nav-link" href="#Data_types">Data types</a></li>
+      <li><a class="nav-link" href="#if...else_statement">if...else statement</a></li>
+      <li><a class="nav-link" href="#while_statement">while statement</a></li>
+      <li><a class="nav-link" href="#Function_declarations">Function declarations</a></li>
+      <li><a class="nav-link" href="#Reference">Reference</a></li>
     </ul>
   </nav>
 
+  <!-- Main -->
   <main id="main-doc">
     <section class="main-section" id="Introduction">
       <header>Introduction</header>
@@ -169,7 +144,7 @@
         </p>
         <code>
           if (true) { let y = 5; } console.log(y); // ReferenceError: y is
-not defined
+          not defined
         </code>
       </article>
     </section>
@@ -202,15 +177,15 @@ not defined
         </p>
         <code>
           // THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS
-WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
-//statements }
+          WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
+          //statements }
         </code>
         <p>
           However, object attributes are not protected, so the following statement is executed without problems.
         </p>
         <code>
           const MY_OBJECT = {"key": "value"}; MY_OBJECT.key =
-"otherValue";
+          "otherValue";
         </code>
       </article>
     </section>
@@ -248,7 +223,6 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
         </ul>
         Although these data types are a relatively small amount, they enable you to perform useful functions with your applications. Objects and functions are the other fundamental elements in the language. You can think of objects as named containers for values, and functions as procedures that your application can perform.
       </article>
-      
     </section>
     <section class="main-section" id="if...else_statement">
       <header>if...else statement</header>
@@ -344,5 +318,9 @@ WILL CAUSE AN ERROR ALSO function f() { const g = 5; var g;
       </article>
     </section>
   </main>
+  <!-- Back to top -->
+  <a href="#" class="back-to-top">
+    <i class="fa-solid fa-caret-up"></i>
+  </a>
 </body>
 </html>

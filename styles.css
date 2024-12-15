@@ -68,7 +68,7 @@ header {
 #main-doc {
   position: absolute;
   margin-left: 310px;
-  padding: 20px;
+  padding: 20px 55px 20px 20px;
   margin-bottom: 110px;
 }
 
@@ -94,6 +94,52 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 5px;
+}
+
+.back-to-top {
+  z-index: 1;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 4rem;
+  color: black;
+  animation-name: appear;
+  animation-timeline: scroll(y);
+  opacity: 0;
+}
+
+.back-to-top:hover {
+  color: #4d4e53;
+  scale: 1.1;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+    display: none;
+    position: fixed;
+  }
+  3% {
+    opacity: 0;
+    display: none;
+    right: 20px;
+    top: 90%;
+  }
+
+  3.5% {
+    opacity: 1;
+    display: block;
+    right: 20px;
+    top: 90%;
+  }
+
+  100% {
+    opacity: 1;
+    display: block;
+    position: fixed;
+    right: 20px;
+    top: 90%;
+  }
 }
 
 @media only screen and (max-width: 815px) {
