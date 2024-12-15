@@ -1,11 +1,10 @@
 # Document Page
 
-Bu proje, HTML ve CSS kullanılarak oluşturulmuş bir **belge sayfası**dır. Sayfa, modern ve kullanıcı dostu bir tasarıma sahiptir. Ayrıca JavaScript desteğiyle daha dinamik hale getirilmiştir.
+Bu proje, HTML ve CSS kullanılarak oluşturulmuş bir **belge sayfası**dır. Sayfa, modern ve kullanıcı dostu bir tasarıma sahiptir.
 
 ## 🚀 Proje Özellikleri
 
 - 🌐 **HTML ve CSS**: Temel yapı ve stilizasyon için kullanıldı.
-- ⚡ **JavaScript**: Dinamik içerik ve etkileşimler sağlandı.
 - 📱 **Responsive Tasarım**: Farklı cihaz ekranlarına uyumlu.
 
 ## 🖼️ Görseller
@@ -32,7 +31,6 @@ Aşağıda projeye ait bir ekran görüntüsü bulunmaktadır:
 .
 ├── index.html  # Ana HTML dosyası
 ├── style.css   # CSS dosyası
-├── script.js   # JavaScript dosyası
 ├── assets/     # Görseller ve medya dosyaları
 └── README.md   # Proje açıklaması
 ```
