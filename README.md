@@ -18,7 +18,7 @@ Aşağıda projeye ait bir ekran görüntüsü bulunmaktadır:
 
 1. 📂 Bu projeyi klonlayın:
    ```bash
-   git clone https://github.com/kullaniciadi/document-page.git
+   git clone https://github.com/enescopler/document-page.git
    ```
 2. 📁 Proje klasörüne gidin:
    ```bash
